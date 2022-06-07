@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE listaCompras SYSTEM "listaCompras.dtd">
+<!--<listaCompras xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="listaCompras.xsd">-->
+<listaCompras>
+    <Venta>
+        <ventaCredito>
+            <fechafinpago>2022-01-03</fechafinpago>
+            <cantidad>35</cantidad>
+        </ventaCredito>
+    </Venta>
+
+    <Venta>
+        <ventaInmediata>
+            <cantidad>365</cantidad>
+            <divisa>25000</divisa>
+        </ventaInmediata>
+    </Venta>
+
+</listaCompras>

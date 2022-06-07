@@ -1,0 +1,7 @@
+<!ELEMENT listaCompras (Venta+)>
+<!ELEMENT Venta (ventaCredito | ventaInmediata)>
+<!ELEMENT ventaCredito (fechafinpago?, cantidad)>
+<!ELEMENT ventaInmediata (cantidad, divisa)>
+<!ELEMENT fechafinpago (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT divisa (#PCDATA)>
